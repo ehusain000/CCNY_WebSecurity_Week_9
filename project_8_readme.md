@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -58,10 +58,13 @@ To see that the red has a Insecure Direct Object Reference I tried to change sal
 Lazy Lazyman (FIRED FOR STEALING)
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery
 
+![Week9_6](https://user-images.githubusercontent.com/32075350/56177824-04351480-5fce-11e9-81bb-2a9256352c78.gif)
+
+As shown in the GIF, what I basically did was that in my users page I updated/changed the csrf token in the html code and changed the user name. Doing so in the Green and Blue gave me a "Invalid Request"; however the red allowed me to make the changes.
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+The challenges were pretty straight forward.
 
