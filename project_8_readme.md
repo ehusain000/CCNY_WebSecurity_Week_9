@@ -35,9 +35,9 @@ In a session that was logged in alreadu, we similpy copy the session id using th
 
 Vulnerability #1: Cross-Site Scripting
 
-![Week9_4](https://user-images.githubusercontent.com/32075350/56175516-83721a80-5fc5-11e9-8d91-a5250b4057a9.gif)
+![Week9_4_1](https://user-images.githubusercontent.com/32075350/56178188-588cc400-5fcf-11e9-94bb-37dfd69bcc14.gif)
 
-To figure out this vulnerability, first go to the contact us tab. In here type <script>alert('FOUND IT!')</script> for you name and comment and then type in a random email for the email secion. To see this vulnerability in action, log in and go to feedback as shown in the GIF.
+To figure out this vulnerability, first go to the contact us tab. In here type <script>alert('XSS!')</script> for your comment and then type in a random email for the email secion. To see this vulnerability in action, log in and go to feedback as shown in the GIF.
 
 
 Vulnerability #2: User Enumeration 
