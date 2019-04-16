@@ -50,7 +50,13 @@ It can be seen in the GIF whenever a nonexistent username such as 'admin' is ent
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
+
+![Week9_5](https://user-images.githubusercontent.com/32075350/56176370-da2d2380-5fc8-11e9-890d-18a79388fab8.gif)
+
+To see that the red has a Insecure Direct Object Reference I tried to change salesperson id for the blue and green initially; however, I was redirected to the page. In the red, however, when we change the salesperson id to 11 we get a salesperson who was fired:
+Lazy Lazyman (FIRED FOR STEALING)
+
 
 Vulnerability #2: __________________
 
