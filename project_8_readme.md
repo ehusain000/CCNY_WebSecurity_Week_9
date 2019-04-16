@@ -23,7 +23,12 @@ Vulnerability #1: SQLI Injection
 It can be seen in the gif above, when the apostrophe (') is written in the end of the URL for the green and redwe are simply redirected to the same page. In the blue; however, it results in a database query failiure which shows that the blue site had SQL Injection vulnerability.
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+
+![Week9_2 9 06 01 PM](https://user-images.githubusercontent.com/32075350/56174822-69830880-5fc2-11e9-92f4-49bf0f08fe66.gif)
+
+In a session that was logged in alreadu, we similpy copy the session id using the link given int the codepath website. Next we go to a different session where we are logged out and change it session to that of the logged in one. This would give the attacker logged in priveleges.
+
 
 
 ## Green
