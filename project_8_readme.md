@@ -35,7 +35,12 @@ In a session that was logged in alreadu, we similpy copy the session id using th
 
 Vulnerability #1: __________________
 
-Vulnerability #2: __________________
+Vulnerability #2: User Enumeration 
+![Week9_3](https://user-images.githubusercontent.com/32075350/56175198-0abe8e80-5fc4-11e9-8e03-43bccd712614.gif)
+
+It can be seen in the GIF whenever a nonexistent username such as 'admin' is entered, the message is shown in non-bold letters. Moreover, insepecting it shows that the class for the wrong username is failed. On the other hand, the correct username displays the message in bold letters and the class for the correct username is failure.
+
+
 
 
 ## Red
